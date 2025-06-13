@@ -1,8 +1,36 @@
 # Wells Fargo Counselor Web Application
 
-A simple Spring Boot web application built for the Wells Fargo Task 2 assignment. This project demonstrates RESTful routing, JPA repositories, data handling, and server-side rendering with Spring Boot.
+This project is a backend system implemented in Java using Spring Boot and JPA, designed to model a financial advising system for Wells Fargo. This task was completed as part of the Forage Virtual Internship program.
 
----
+## 📌 Project Objectives
+
+- Design and implement a full data model using JPA.
+- Establish entity relationships with appropriate annotations.
+- Seed the database with initial data using a `DataLoader` class.
+
+## 🏗️ Technologies Used
+
+- Java
+- Spring Boot
+- Spring Data JPA
+- H2 In-Memory Database
+- IntelliJ IDEA
+
+## 🧩 Entity Overview
+
+This project models the following entities:
+
+- **Advisor**
+- **Client**
+- **Portfolio**
+- **Security**
+
+Each class is defined with:
+- `@Entity` annotation
+- Auto-generated primary keys
+- Constructors
+- Getters/Setters
+- Relationship mappings using `@OneToMany`, `@ManyToOne`, etc.
 
 ## 🚀 Features
 
